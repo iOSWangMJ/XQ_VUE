@@ -7,3 +7,7 @@ const clone = data => {
 
 Vue.prototype.$axios = axios
 Vue.prototype.$clone = clone
+
+export{
+    Vue
+}
